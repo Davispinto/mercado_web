@@ -1,0 +1,8 @@
+{{#each stock}}
+<div class="card mx-3 my-3" onclick="alert('Añadido al carrito✔ solo se puede agregar 1')" style="width: 18rem;  border: none">
+  <img href="#" class="btn agregarCompra" data-name="{{this}}" type="button" src="../assets/img/{{this}}.png" class="card-img-top img-fluid">
+  <div class="card-body mx-auto" style="margin:auto">
+    <h5 class="card-title text-center">{{this}}</h5>
+  </div>
+</div>
+{{/each}}
